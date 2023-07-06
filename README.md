@@ -12,7 +12,7 @@ MyShell is a Linux command line shell based on Bash. Two options under a command
   * **--help** – outputs text that explains the working and options of MyShell’s pwd.
 * **[cd](/shell.c)** – changes the current directory. If it fails to do so, it outputs that. “~” and “/” specify “HOME” and “ROOT” respectively.
   *	**-L** – follows symlinks (but restricted to paths where last argument in the path of a given directory is a symlink).
-  *	***-P** – does not follow symlinks (no symlink should be given in the path of the directory). This constriction arises due to the nature of chdir() function.
+  *	**-P** – does not follow symlinks (no symlink should be given in the path of the directory). This constriction arises due to the nature of chdir() function.
 * **[ls](/ls.c)** – lists all the files and folders in a given directory. If no argument is passed, it displays contents of the current directory. If directory could not be opened, it displays the corresponding error.
   * **-A** – displays hidden files and folders (starting with “.”).
   *	**-1** – displays name of each file and folder separately in a newline.
